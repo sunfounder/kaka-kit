@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>连接指南 &mdash; sf-controller 1.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="https://ezblock.cc/readDocFile/custom.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script src="https://ezblock.cc/readDocFile/custom.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="界面介绍" href="page.html" />
+    <link rel="prev" title="下载与安装" href="install.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+<nav id="nav-bar">
+  <ul class="nav-bar-items" id="nav-bar-items">
+    <li class="nav-bar-logo">
+      <a href="https://sunfounder.com">
+        <img class="logo-img" src="https://ezblock.cc/readDocFile/sunfounder_LOGO_160x@2x.png"/>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            sf-controller
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">下载与安装</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">连接指南</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">连接百变积木控制板</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">编写代码测试连接</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">疑难解答</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#update">升级固件</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id6">1.下载固件升级程序</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">2.运行固件升级程序</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id9">3.固件升级过程中遇到问题</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="page.html">界面介绍</a></li>
+<li class="toctree-l1"><a class="reference internal" href="block.html">卡卡积木块介绍</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">sf-controller</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">连接指南</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/quickstart.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>连接指南<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h1>
+<p>本篇教程以使用Mammthon Coding APP遥控百变积木控制板的板载蜂鸣器作为示例，帮助你快速熟悉连接流程。</p>
+<dl class="simple">
+<dt>需要准备：</dt><dd><ol class="arabic simple">
+<li><p>百变积木控制板。</p></li>
+<li><p>安装Mammthon Coding APP的设备，设备需要支持蓝牙。</p></li>
+</ol>
+</dd>
+</dl>
+<section id="id2">
+<h2>连接百变积木控制板<a class="headerlink" href="#id2" title="Permalink to this heading">¶</a></h2>
+<ol class="arabic">
+<li><p>打开百变积木控制板，当百变积木控制板上的LED一直闪烁，则说明百变积木控制板正在等待连接。</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/open_kakaboard.webp"><img alt="_images/open_kakaboard.webp" src="_images/open_kakaboard.webp" style="width: 450px;" /></a>
+</div></blockquote>
+</li>
+<li><p>打开Mammthon Coding APP，在 <strong>左下角</strong> 点击 <strong>添加拓展</strong>。</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/shadow_connect-1.png"><img alt="_images/shadow_connect-1.png" src="_images/shadow_connect-1.png" style="width: 450px;" /></a>
+</div></blockquote>
+</li>
+<li><p>选择 <strong>卡卡</strong> 拓展。</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/shadow_connect-2.png"><img alt="_images/shadow_connect-2.png" src="_images/shadow_connect-2.png" style="width: 450px;" /></a>
+</div></blockquote>
+</li>
+<li><p>选择你的设备，点击连接。连接成功后，连接窗口会显示已连接，且百变积木控制板上的LED会由一闪一闪变成一直亮。</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/shadow_connect-3.png"><img alt="_images/shadow_connect-3.png" src="_images/shadow_connect-3.png" style="width: 450px;" /></a>
+<a class="reference internal image-reference" href="_images/shadow_connect-3b.png"><img alt="_images/shadow_connect-3b.png" src="_images/shadow_connect-3b.png" style="width: 450px;" /></a>
+</div></blockquote>
+</li>
+</ol>
+</section>
+<section id="id3">
+<h2>编写代码测试连接<a class="headerlink" href="#id3" title="Permalink to this heading">¶</a></h2>
+<ol class="arabic">
+<li><p>在卡卡类别中，拖出 “蜂鸣器播放音符（60）持续（0.5）秒” 代码块。</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/shadow_test-1.png"><img alt="_images/shadow_test-1.png" src="_images/shadow_test-1.png" style="width: 450px;" /></a>
+</div></blockquote>
+</li>
+<li><p>在代码区点击这个代码块，如果能够听到百变积木控制发出“滴”的声音，则说明远程遥控成功。</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/shadow_test-2.png"><img alt="_images/shadow_test-2.png" src="_images/shadow_test-2.png" style="width: 450px;" /></a>
+</div></blockquote>
+</li>
+</ol>
+</section>
+<section id="id4">
+<h2>疑难解答<a class="headerlink" href="#id4" title="Permalink to this heading">¶</a></h2>
+<ol class="arabic">
+<li><p>在连接界面搜索不到设备？</p>
+<p>请尝试以下步骤：</p>
+<ol class="loweralpha simple">
+<li><p>尝试点击刷新按钮，再耐心等待。</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/connectQA-1.png"><img alt="_images/connectQA-1.png" src="_images/connectQA-1.png" style="width: 250px;" /></a>
+</div></blockquote>
+<ol class="loweralpha simple" start="2">
+<li><p>检查百变积木控制板的开关是否打开,并且LED一闪一闪？如果没有打开，请打开。</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/open_kakaboard.webp"><img alt="_images/open_kakaboard.webp" src="_images/open_kakaboard.webp" style="width: 300px;" /></a>
+</div></blockquote>
+<ol class="loweralpha simple" start="3">
+<li><p>检查LED闪烁情况。如果LED长亮的，则说明主板已被连接，请检查主板是否被其它设备连接。如果LED不闪，则需要重新升级固件，请查看 <a class="reference internal" href="#update"><span class="std std-ref">升级固件</span></a> 的部分。</p></li>
+<li><p>检查设备的 <strong>蓝牙</strong> 和 <strong>位置信息</strong> 是否打开。如果没有打开，请打开。</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/connectQA-2.png"><img alt="_images/connectQA-2.png" src="_images/connectQA-2.png" style="width: 350px;" /></a>
+</div></blockquote>
+</li>
+<li><p>打开百变积木控制板后，百变积木控制板上的LED不亮，不会一闪一闪？</p>
+<p>需要升级固件，请查看 <a class="reference internal" href="#update"><span class="std std-ref">升级固件</span></a> 的部分。</p>
+</li>
+</ol>
+</section>
+<section id="update">
+<span id="id5"></span><h2>升级固件<a class="headerlink" href="#update" title="Permalink to this heading">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>升级固件需要使用到Windows电脑。</p>
+</div>
+<section id="id6">
+<h3>1.下载固件升级程序<a class="headerlink" href="#id6" title="Permalink to this heading">¶</a></h3>
+<p>点击 <a class="reference external" href="https://ezblock.com.cn/app_v2/kaka-firmware-v1.0.0.2.zip">下载链接</a> 下载固件升级程序。</p>
+</section>
+<section id="id8">
+<h3>2.运行固件升级程序<a class="headerlink" href="#id8" title="Permalink to this heading">¶</a></h3>
+<p>下载完后，我们会得到一个名为 <strong>kaka-mammoth-coding-firmware.zip</strong> 的压缩包。</p>
+<img alt="_images/fw_update-2.png" src="_images/fw_update-2.png" />
+<p>用鼠标右键点击这个压缩包，然后选择“全部解压缩”，解压这个压缩包。</p>
+<img alt="_images/fw_update-3.png" src="_images/fw_update-3.png" />
+<p>双击 <strong>install.bat</strong> 运行固件升级程序。</p>
+<img alt="_images/fw_update-4.png" src="_images/fw_update-4.png" />
+<img alt="_images/fw_update-5.png" src="_images/fw_update-5.png" />
+<p>当提示 <strong>固件烧录成功!</strong> 则说明固件升级已经完成。</p>
+<img alt="_images/fw_update-6.png" src="_images/fw_update-6.png" />
+</section>
+<section id="id9">
+<h3>3.固件升级过程中遇到问题<a class="headerlink" href="#id9" title="Permalink to this heading">¶</a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>升级过程中可能会出现如下错误。需要按照下面的提示重新尝试。</p>
+</div>
+<img alt="_images/fw_update_error-1.png" src="_images/fw_update_error-1.png" />
+<img alt="_images/fw_update_error-2.png" src="_images/fw_update_error-2.png" />
+<p>如果固件升级过程出现红色的错误提示，你可以按顺序尝试以下几种操作：</p>
+<ol class="arabic">
+<li><p>检查电脑与百变积木控制板之间的连接。重新连接电脑和百变积木控制板。</p></li>
+<li><p>右键点击 <strong>install_driver.bat</strong> ，点击 <strong>以管理员身份运行</strong> 运行安装驱动程序。安装驱动成功后，再次运行 <strong>install.bat</strong>。</p>
+<img alt="_images/fw_update_error-3.png" src="_images/fw_update_error-3.png" />
+<img alt="_images/fw_update_error-4.png" src="_images/fw_update_error-4.png" />
+</li>
+<li><p>如果前面的步骤都无法解决问题。重新连接电脑和百变积木控制板。再次运行 <strong>install.bat</strong> ，在弹出的窗口每次出现 <strong>Connecting …</strong> 时，长按 <strong>百变积木控制板上的A按键</strong>。</p>
+<img alt="_images/fw_update_error-5.png" src="_images/fw_update_error-5.png" />
+</li>
+</ol>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="install.html" class="btn btn-neutral float-left" title="下载与安装" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="page.html" class="btn btn-neutral float-right" title="界面介绍" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, sunfounder.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

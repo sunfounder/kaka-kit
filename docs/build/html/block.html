@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>卡卡积木块介绍 &mdash; sf-controller 1.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="https://ezblock.cc/readDocFile/custom.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script src="https://ezblock.cc/readDocFile/custom.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="界面介绍" href="page.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+<nav id="nav-bar">
+  <ul class="nav-bar-items" id="nav-bar-items">
+    <li class="nav-bar-logo">
+      <a href="https://sunfounder.com">
+        <img class="logo-img" src="https://ezblock.cc/readDocFile/sunfounder_LOGO_160x@2x.png"/>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            sf-controller
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">下载与安装</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">连接指南</a></li>
+<li class="toctree-l1"><a class="reference internal" href="page.html">界面介绍</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">卡卡积木块介绍</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id3">映射</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">电位器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">光线传感器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">声音强度判断</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id7">声音强度数值</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id8">当按下按键</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id9">按键状态</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id10">蜂鸣器 播放音符</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id11">蜂鸣器 停止播放</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id12">超声波传感器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id13">四位数码管显示</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id14">颜色传感器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id15">电机</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id16">舵机</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id17">机械组电机</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">sf-controller</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">卡卡积木块介绍</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/block.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>卡卡积木块介绍<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h1>
+<a class="reference internal image-reference" href="_images/kaka-main.png"><img alt="_images/kaka-main.png" src="_images/kaka-main.png" style="height: 350px;" /></a>
+<div class="line-block">
+<div class="line">卡卡积木代码块拓展是专门适配 <a class="reference external" href="https://www.xiaomiyoupin.com/detail?gid=155324">百变编程套件</a> 的拓展，通过蓝牙连接 <strong>百变积木控制板</strong> 就能实现多种创意玩法。</div>
+</div>
+<section id="id3">
+<h2>映射<a class="headerlink" href="#id3" title="Permalink to this heading">¶</a></h2>
+<a class="reference internal image-reference" href="_images/映射.png"><img alt="_images/%E6%98%A0%E5%B0%84.png" src="_images/%E6%98%A0%E5%B0%84.png" style="height: 35px;" /></a>
+<p><strong>积木用途</strong>：将数值从一个范围映射到另一个范围。</p>
+<p><strong>积木参数</strong>：使用该积木需要设置五个参数，其中第一个参数表示需要进行映射的数值，而第二和第三个参数则代表了映射前数值的范围，第四和第五个参数则表示了映射后数值的范围。</p>
+</section>
+<section id="id4">
+<h2>电位器<a class="headerlink" href="#id4" title="Permalink to this heading">¶</a></h2>
+<a class="reference internal image-reference" href="_images/电位器.png"><img alt="_images/%E7%94%B5%E4%BD%8D%E5%99%A8.png" src="_images/%E7%94%B5%E4%BD%8D%E5%99%A8.png" style="height: 35px;" /></a>
+<p><strong>积木用途</strong>：获取连接在指定引脚的电位器的数值。对于本套件，范围是0-4095。</p>
+<p><strong>积木参数</strong>：本积木有一个参数，用于指定电位器所在引脚。</p>
+</section>
+<section id="id5">
+<h2>光线传感器<a class="headerlink" href="#id5" title="Permalink to this heading">¶</a></h2>
+<a class="reference internal image-reference" href="_images/光线传感器.png"><img alt="_images/%E5%85%89%E7%BA%BF%E4%BC%A0%E6%84%9F%E5%99%A8.png" src="_images/%E5%85%89%E7%BA%BF%E4%BC%A0%E6%84%9F%E5%99%A8.png" style="height: 35px;" /></a>
+<p><strong>积木用途</strong>：获取连接在指定引脚的光线传感器的数值。对于本套件，范围是0-4095。</p>
+<p><strong>积木参数</strong>：本积木有一个参数，用于指定光线传感器所在引脚。</p>
+</section>
+<section id="id6">
+<h2>声音强度判断<a class="headerlink" href="#id6" title="Permalink to this heading">¶</a></h2>
+<a class="reference internal image-reference" href="_images/声音强度判断.png"><img alt="_images/%E5%A3%B0%E9%9F%B3%E5%BC%BA%E5%BA%A6%E5%88%A4%E6%96%AD.png" src="_images/%E5%A3%B0%E9%9F%B3%E5%BC%BA%E5%BA%A6%E5%88%A4%E6%96%AD.png" style="height: 55px;" /></a>
+<p><strong>积木用途</strong>：当声音强度满足一定条件，执行积木下方的代码。</p>
+<p><strong>积木参数</strong>：本积木有两个参数，第一个参数用于指定比较运算符号，第二个参数用于指定贩毒案数值。</p>
+</section>
+<section id="id7">
+<h2>声音强度数值<a class="headerlink" href="#id7" title="Permalink to this heading">¶</a></h2>
+<a class="reference internal image-reference" href="_images/声音强度.png"><img alt="_images/%E5%A3%B0%E9%9F%B3%E5%BC%BA%E5%BA%A6.png" src="_images/%E5%A3%B0%E9%9F%B3%E5%BC%BA%E5%BA%A6.png" style="height: 35px;" /></a>
+<p><strong>积木用途</strong>：获取百变积木控制板上板载麦克风读取到的声音强度大小，范围是0-100。</p>
+<p><strong>积木参数</strong>：无。</p>
+</section>
+<section id="id8">
+<h2>当按下按键<a class="headerlink" href="#id8" title="Permalink to this heading">¶</a></h2>
+<a class="reference internal image-reference" href="_images/按键判断.png"><img alt="_images/%E6%8C%89%E9%94%AE%E5%88%A4%E6%96%AD.png" src="_images/%E6%8C%89%E9%94%AE%E5%88%A4%E6%96%AD.png" style="height: 55px;" /></a>
+<p><strong>积木用途</strong>：当按下百变积木控制板上的指定按键时，执行积木下方的的代码。</p>
+<p><strong>积木参数</strong>：本积木有一个参数，用于指定按键。</p>
+</section>
+<section id="id9">
+<h2>按键状态<a class="headerlink" href="#id9" title="Permalink to this heading">¶</a></h2>
+<a class="reference internal image-reference" href="_images/按下按键状态.png"><img alt="_images/%E6%8C%89%E4%B8%8B%E6%8C%89%E9%94%AE%E7%8A%B6%E6%80%81.png" src="_images/%E6%8C%89%E4%B8%8B%E6%8C%89%E9%94%AE%E7%8A%B6%E6%80%81.png" style="height: 30px;" /></a>
+<p><strong>积木用途</strong>：获取指定按键按下的状态。按键按下为 <code class="docutils literal notranslate"><span class="pre">ture</span></code>,否则为 <code class="docutils literal notranslate"><span class="pre">false</span></code>。</p>
+<p><strong>积木参数</strong>：本积木有一个参数，用于指定电位器所在引脚。</p>
+</section>
+<section id="id10">
+<h2>蜂鸣器 播放音符<a class="headerlink" href="#id10" title="Permalink to this heading">¶</a></h2>
+<a class="reference internal image-reference" href="_images/蜂鸣器播放.png"><img alt="_images/%E8%9C%82%E9%B8%A3%E5%99%A8%E6%92%AD%E6%94%BE.png" src="_images/%E8%9C%82%E9%B8%A3%E5%99%A8%E6%92%AD%E6%94%BE.png" style="height: 45px;" /></a>
+<p><strong>积木用途</strong>：在百变积木控制板上的蜂鸣器播放音符。</p>
+<p><strong>积木参数</strong>：本积木有两个参数，第一个参数用于指定音符，第二个参数用于指定声音的持续时长。</p>
+</section>
+<section id="id11">
+<h2>蜂鸣器 停止播放<a class="headerlink" href="#id11" title="Permalink to this heading">¶</a></h2>
+<a class="reference internal image-reference" href="_images/蜂鸣器停止.png"><img alt="_images/%E8%9C%82%E9%B8%A3%E5%99%A8%E5%81%9C%E6%AD%A2.png" src="_images/%E8%9C%82%E9%B8%A3%E5%99%A8%E5%81%9C%E6%AD%A2.png" style="height: 45px;" /></a>
+<p><strong>积木用途</strong>：停止蜂鸣器播放音符。</p>
+<p><strong>积木参数</strong>：无。</p>
+</section>
+<section id="id12">
+<h2>超声波传感器<a class="headerlink" href="#id12" title="Permalink to this heading">¶</a></h2>
+<a class="reference internal image-reference" href="_images/超声波传感器.png"><img alt="_images/%E8%B6%85%E5%A3%B0%E6%B3%A2%E4%BC%A0%E6%84%9F%E5%99%A8.png" src="_images/%E8%B6%85%E5%A3%B0%E6%B3%A2%E4%BC%A0%E6%84%9F%E5%99%A8.png" style="height: 35px;" /></a>
+<p><strong>积木用途</strong>：获取连接在指定引脚的超声波传感器的数值。对于本套件，范围是0-4095，单位是厘米。</p>
+<p><strong>积木参数</strong>：本积木有一个参数，用于指定超声波传感器所在引脚。</p>
+</section>
+<section id="id13">
+<h2>四位数码管显示<a class="headerlink" href="#id13" title="Permalink to this heading">¶</a></h2>
+<a class="reference internal image-reference" href="_images/四位数码管.png"><img alt="_images/%E5%9B%9B%E4%BD%8D%E6%95%B0%E7%A0%81%E7%AE%A1.png" src="_images/%E5%9B%9B%E4%BD%8D%E6%95%B0%E7%A0%81%E7%AE%A1.png" style="height: 45px;" /></a>
+<p><strong>积木用途</strong>：将指定的数字显示在连接到指定引脚的四位数码管上。</p>
+<p><strong>积木参数</strong>：本积木有两个参数，第一个参数用于指定四位数码管所在引脚，第二个参数用于指定要显示的数字。</p>
+</section>
+<section id="id14">
+<h2>颜色传感器<a class="headerlink" href="#id14" title="Permalink to this heading">¶</a></h2>
+<a class="reference internal image-reference" href="_images/颜色传感器.png"><img alt="_images/%E9%A2%9C%E8%89%B2%E4%BC%A0%E6%84%9F%E5%99%A8.png" src="_images/%E9%A2%9C%E8%89%B2%E4%BC%A0%E6%84%9F%E5%99%A8.png" style="height: 35px;" /></a>
+<p><strong>积木用途</strong>：获取连接在指定引脚的颜色传感器的数值。可检测的颜色有：蓝色、红色、橙色、黄色和绿色。</p>
+<p><strong>积木参数</strong>：本积木有一个参数，用于指定颜色传感器所在引脚。</p>
+</section>
+<section id="id15">
+<h2>电机<a class="headerlink" href="#id15" title="Permalink to this heading">¶</a></h2>
+<a class="reference internal image-reference" href="_images/电机.png"><img alt="_images/%E7%94%B5%E6%9C%BA.png" src="_images/%E7%94%B5%E6%9C%BA.png" style="height: 45px;" /></a>
+<p><strong>积木用途</strong>：控制连接在指定引脚的电机开启和关闭。</p>
+<p><strong>积木参数</strong>：本积木有两个参数，第一个参数用于指定电机连接的引脚，第二个参数用于控制电机的开启关闭。</p>
+</section>
+<section id="id16">
+<h2>舵机<a class="headerlink" href="#id16" title="Permalink to this heading">¶</a></h2>
+<a class="reference internal image-reference" href="_images/舵机.png"><img alt="_images/%E8%88%B5%E6%9C%BA.png" src="_images/%E8%88%B5%E6%9C%BA.png" style="height: 45px;" /></a>
+<p><strong>积木用途</strong>：设置连接在指定引脚的舵机转动到指定角度，角度范围是0-180。</p>
+<p><strong>积木参数</strong>：本积木有两个参数，第一个参数用于指定舵机连接的引脚，第二个参数是舵机的角度。</p>
+</section>
+<section id="id17">
+<h2>机械组电机<a class="headerlink" href="#id17" title="Permalink to this heading">¶</a></h2>
+<a class="reference internal image-reference" href="_images/机械组电机.png"><img alt="_images/%E6%9C%BA%E6%A2%B0%E7%BB%84%E7%94%B5%E6%9C%BA.png" src="_images/%E6%9C%BA%E6%A2%B0%E7%BB%84%E7%94%B5%E6%9C%BA.png" style="height: 45px;" /></a>
+<p><strong>积木用途</strong>：设置连接在指定引脚的机械组电机以指定速度转动，速度范围是0-100。</p>
+<p><strong>积木参数</strong>：本积木有两个参数，第一个参数用于指定机械组电机连接的引脚，第二个参数是机械组电机的速度。</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="page.html" class="btn btn-neutral float-left" title="界面介绍" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, sunfounder.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
